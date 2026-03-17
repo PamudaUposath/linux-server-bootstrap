@@ -31,7 +31,7 @@ fi
 
 #Check for the required files
 for file in "$PROJECT_DIR/app/Dockerfile" "$PROJECT_DIR/app/index.html" "$PROJECT_DIR/nginx/default.conf"; do
-    if [! -f "$file"]; then
+    if [ ! -f "$file" ]; then
         echo "Required file missing: $file"
         exit 1
     fi
