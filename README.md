@@ -2,6 +2,8 @@
 
 A beginner DevOps and System Engineering project that automates the setup of a fresh Ubuntu server.
 
+---
+
 ## Features
 
 - Updates Ubuntu packages
@@ -11,6 +13,9 @@ A beginner DevOps and System Engineering project that automates the setup of a f
 - Installs and configures Nginx
 - Deploys a simple Dockerised app
 - Installs basic monitoring tools
+- Provides a reset script to safely reverse the setup
+
+---
 
 ## Project Structure
 
@@ -22,5 +27,6 @@ linux-server-bootstrap/
 ├── nginx/
 │   └── default.conf
 ├── bootstrap.sh
+├── reset.sh
 ├── README.md
 └── .gitignore
